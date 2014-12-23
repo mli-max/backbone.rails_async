@@ -11,6 +11,6 @@ Gem::Specification.new do |spec|
   spec.summary       = %q{The Backbone sync wrapper lib, extracted from [codebrew/backbone-rails]}
   spec.homepage      = 'https://github.com/mli-max/backbone.rails_async'
   spec.license       = 'MIT'
-  spec.files         = Dir['lib/**/*'] + Dir['vendor/**/*'] + %w(LICENSE.txt Rakefile README.md)
+  spec.files         = Dir['lib/**/*'] + Dir['vendor/**/*'] + %w(README.md)
   spec.require_paths = ["lib"]
 end
