@@ -5,7 +5,7 @@ require 'backbone.rails_async/version'
 
 Gem::Specification.new do |spec|
   spec.name          = 'backbone.rails_async'
-  spec.version       = Backbone.railsAsync::VERSION
+  spec.version       = BackboneRailsAsync::VERSION
   s.authors          = ['Ryan Fitzgerald', 'Code Brew Studios', 'Manu S Ajith', 'Maxim Litvinov']
   s.email            = %w(ryan@codebrewstudios.com neo@codingarena.in)
   spec.summary       = %q{The Backbone sync wrapper lib, extracted from [codebrew/backbone-rails]}
