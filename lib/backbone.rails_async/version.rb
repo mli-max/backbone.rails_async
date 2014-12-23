@@ -1,3 +1,3 @@
-module Backbone.railsAsync
+module BackboneRailsAsync
   VERSION = "0.0.1"
 end

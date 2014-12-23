@@ -1,5 +1,8 @@
 require "backbone.rails_async/version"
 
-module Backbone.railsAsync
-  # Your code goes here...
+module BackboneRailsAsync
+  if defined?(Rails)
+    class Engine < ::Rails::Engine
+    end
+  end
 end
